@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="251.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.newTypeController">
+   <children>
+      <Label layoutX="27.0" layoutY="34.0" text="Type name:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name_textfield" layoutX="122.0" layoutY="34.0" prefHeight="25.0" prefWidth="103.0" />
+      <Label layoutX="49.0" layoutY="78.0" prefHeight="25.0" prefWidth="73.0" text="Field name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field1" layoutY="126.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="field2" layoutY="151.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="field3" layoutY="176.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="field4" layoutY="201.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="field5" layoutY="226.0" prefHeight="25.0" prefWidth="121.0" visible="false" />
+      <TextField fx:id="field6" layoutY="251.0" prefHeight="25.0" prefWidth="121.0" visible="false" />
+      <TextField fx:id="field7" layoutY="276.0" prefHeight="25.0" prefWidth="121.0" visible="false" />
+      <TextField fx:id="field8" layoutX="121.0" layoutY="126.0" prefHeight="25.0" prefWidth="130.0" visible="false" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="field9" layoutX="123.0" layoutY="151.0" prefHeight="25.0" prefWidth="130.0" visible="false" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="field10" layoutX="121.0" layoutY="176.0" prefHeight="25.0" prefWidth="130.0" visible="false" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="field11" layoutX="121.0" layoutY="201.0" prefHeight="25.0" prefWidth="130.0" visible="false" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="field12" layoutX="121.0" layoutY="226.0" prefHeight="25.0" prefWidth="130.0" visible="false" />
+      <TextField fx:id="field13" layoutX="121.0" layoutY="251.0" prefHeight="25.0" prefWidth="130.0" visible="false" />
+      <TextField fx:id="field14" layoutX="121.0" layoutY="276.0" prefHeight="25.0" prefWidth="130.0" visible="false" />
+      <Button fx:id="newcol_button" layoutX="137.0" layoutY="78.0" mnemonicParsing="false" onAction="#newColAction" prefHeight="25.0" prefWidth="29.0" text="+" />
+      <Button fx:id="create_button" layoutX="174.0" layoutY="78.0" mnemonicParsing="false" onAction="#createButtonAction" text="Create" />
+   </children>
+</AnchorPane>
